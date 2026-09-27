@@ -1,0 +1,86 @@
+{
+  "name": "FinanceProfile",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "school_year": {
+      "type": "string"
+    },
+    "monthly_income": {
+      "type": "number",
+      "default": 0
+    },
+    "education_debt": {
+      "type": "number",
+      "default": 0
+    },
+    "monthly_debt_payment": {
+      "type": "number",
+      "default": 200
+    },
+    "graduation_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "expense_housing": {
+      "type": "number",
+      "default": 0
+    },
+    "expense_food": {
+      "type": "number",
+      "default": 0
+    },
+    "expense_transport": {
+      "type": "number",
+      "default": 0
+    },
+    "expense_education": {
+      "type": "number",
+      "default": 0
+    },
+    "expense_entertainment": {
+      "type": "number",
+      "default": 0
+    },
+    "expense_others": {
+      "type": "number",
+      "default": 0
+    },
+    "monthly_contribution": {
+      "type": "number",
+      "default": 300
+    },
+    "annual_return": {
+      "type": "number",
+      "default": 7
+    },
+    "years_to_graduation": {
+      "type": "number",
+      "default": 6
+    },
+    "allocation_etf": {
+      "type": "number",
+      "default": 65
+    },
+    "allocation_bond": {
+      "type": "number",
+      "default": 20
+    },
+    "allocation_cash": {
+      "type": "number",
+      "default": 10
+    },
+    "allocation_other": {
+      "type": "number",
+      "default": 5
+    }
+  },
+  "required": [
+    "full_name"
+  ]
+}

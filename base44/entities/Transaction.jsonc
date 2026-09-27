@@ -1,0 +1,41 @@
+{
+  "name": "Transaction",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Housing",
+        "Food & groceries",
+        "Transportation",
+        "Education",
+        "Entertainment",
+        "Others",
+        "Income"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "expense",
+        "income"
+      ],
+      "default": "expense"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "name",
+    "amount",
+    "category"
+  ]
+}

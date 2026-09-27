@@ -1,0 +1,18 @@
+{
+  "name": "SheetsConfig",
+  "type": "object",
+  "properties": {
+    "spreadsheet_id": {
+      "type": "string"
+    },
+    "spreadsheet_url": {
+      "type": "string"
+    },
+    "last_exported_month": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "spreadsheet_id"
+  ]
+}
